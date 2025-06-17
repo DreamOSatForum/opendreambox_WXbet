@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 DEPENDS = "libmnl xz"
 SRCREV = "${@opendreambox_srcrev('1cd69394b3702a06cadfce078289dd351a07b152', d)}"
 SRCREV_dm820 = "${SRCREV_dm7080}"
-SRCREV_dm7080 = "${@opendreambox_srcrev('ed7dd69f2d24c040b2a4ebfbeeb63135132abde7', d)}"
+SRCREV_dm7080 = "${@opendreambox_srcrev('f8f428ba77ea76df72766827c4b00d4be93535cf', d)}"
 SRCREV_dreamone = "${SRCREV_dm7080}"
 SRCREV_dreamtwo = "${SRCREV_dm7080}"
 

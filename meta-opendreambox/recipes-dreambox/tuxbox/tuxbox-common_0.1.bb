@@ -1,6 +1,6 @@
 SUMMARY = "Tuxbox common files"
 LICENSE = "CLOSED"
-SRCREV = "${@opendreambox_srcrev('53b2a5a4f2917f0df7a81ef3657c5385af95b802', d)}"
+SRCREV = "${@opendreambox_srcrev('3e4f92b8c337c1cdf4c78fc40141a90032d2083c', d)}"
 
 inherit opendreambox-git
 
@@ -14,4 +14,4 @@ do_install() {
 
 FILES_${PN} = "${sysconfdir}"
 
-OPENDREAMBOX_PROJECT = "obi/enigma2-xml-data"
+OPENDREAMBOX_PROJECT = "enigma2-xml-data"

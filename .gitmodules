@@ -1,10 +1,10 @@
 [submodule "openembedded-core"]
 	path = openembedded-core
-	url = http://git.openembedded.org/openembedded-core-contrib
+	url = https://git.openembedded.org/openembedded-core-contrib
 	branch = obi/pyro
 [submodule "meta-openembedded"]
 	path = meta-openembedded
-	url = http://git.openembedded.org/meta-openembedded-contrib
+	url = https://git.openembedded.org/meta-openembedded-contrib
 	branch = obi/pyro
 [submodule "bitbake"]
 	path = bitbake
