@@ -7,9 +7,7 @@ inherit git-project
 
 SRCREV = "${AUTOREV}"
 PV = "2.2x+git"
-SRC_URI += "git://git.streamboard.tv/common/oscam.git;protocol=https;branch=master \
-            file://fix-cmake-stat.not-found.patch \
-"
+SRC_URI += "git://git.streamboard.tv/common/oscam.git;protocol=https;branch=master"
 
 SUMMARY_${PN} = "OSCam-master ${PKGV}"
 DESCRIPTION_${PN} = "OSCam Open Source Softcam\n \
