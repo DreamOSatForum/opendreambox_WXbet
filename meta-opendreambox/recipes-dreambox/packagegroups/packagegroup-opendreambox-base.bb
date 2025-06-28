@@ -31,6 +31,7 @@ RRECOMMENDS_${PN} += " \
   e2fsprogs-e2fsck \
   haveged \
   hdstandby \
+  htop \
   joe \
   less \
   mc \
