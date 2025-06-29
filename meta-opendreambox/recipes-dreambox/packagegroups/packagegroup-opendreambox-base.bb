@@ -35,6 +35,7 @@ RRECOMMENDS_${PN} += " \
   joe \
   less \
   mc \
+  nano \
   samba-base \
   vsftpd \
   zeroconf \
